@@ -1,0 +1,8 @@
+go 1.19
+
+use (
+	./card-tricks
+	./need-for-speed
+	./party-robot
+	./vehicle-purchase
+)
