@@ -5,4 +5,5 @@ use (
 	./need-for-speed
 	./party-robot
 	./vehicle-purchase
+	./bird-watcher
 )
