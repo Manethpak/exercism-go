@@ -7,4 +7,5 @@ use (
 	./vehicle-purchase
 	./bird-watcher
 	./animal-magic
+	./lasagna-master
 )
