@@ -6,4 +6,5 @@ use (
 	./party-robot
 	./vehicle-purchase
 	./bird-watcher
+	./animal-magic
 )
