@@ -8,4 +8,6 @@ use (
 	./bird-watcher
 	./animal-magic
 	./lasagna-master
+	./booking-up-for-beauty
+	./blackjack
 )
