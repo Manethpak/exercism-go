@@ -12,4 +12,5 @@ use (
 	./blackjack
 	./gross-store
 	./chessboard
+	./election-day
 )
