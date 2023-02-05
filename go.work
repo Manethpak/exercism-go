@@ -11,4 +11,5 @@ use (
 	./booking-up-for-beauty
 	./blackjack
 	./gross-store
+	./chessboard
 )
