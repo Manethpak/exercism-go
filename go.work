@@ -14,4 +14,5 @@ use (
 	./chessboard
 	./election-day
 	./elons-toys
+	./airport-robot
 )
