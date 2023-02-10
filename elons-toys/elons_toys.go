@@ -1,9 +1,32 @@
 package elon
 
-// TODO: define the 'Drive()' method
+import "fmt"
 
-// TODO: define the 'DisplayDistance() string' method
+func (c *Car) Drive() {
+	if c.battery < c.batteryDrain {
+		return
+	}
 
-// TODO: define the 'DisplayBattery() string' method
+	c.battery -= c.batteryDrain
+	c.distance += c.speed
+}
 
-// TODO: define the 'CanFinish(trackDistance int) bool' method
+func (c *Car) DisplayDistance() string {
+	return fmt.Sprintf("Driven %d meters", c.distance)
+}
+
+func (c *Car) DisplayBattery() string {
+	return fmt.Sprintf("Battery at %d%%", c.battery)
+}
+
+func (c *Car) CanFinish(trackDistant int) bool {
+	for c.battery >= c.batteryDrain {
+		c.Drive()
+		trackDistant -= c.speed
+		if trackDistant <= 0 {
+			break
+		}
+	}
+
+	return trackDistant <= 0
+}
