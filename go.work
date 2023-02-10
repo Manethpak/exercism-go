@@ -13,4 +13,5 @@ use (
 	./gross-store
 	./chessboard
 	./election-day
+	./elons-toys
 )
