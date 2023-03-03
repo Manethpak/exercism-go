@@ -15,4 +15,5 @@ use (
 	./election-day
 	./elons-toys
 	./airport-robot
+	./interest-is-interesting
 )
