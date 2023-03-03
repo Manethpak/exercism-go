@@ -16,4 +16,5 @@ use (
 	./elons-toys
 	./airport-robot
 	./interest-is-interesting
+	./sorting-room
 )
